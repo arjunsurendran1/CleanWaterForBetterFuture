@@ -1,0 +1,170 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: #e0f7fa;
+    color: #004d40;
+}
+
+/* Header */
+header {
+    background: url('https://cdn.shopify.com/s/files/1/1172/5864/files/Ways_to_Keep_Our_Water_Clean_You_Should_Do_it_Now_480x480.jpg?v=1645065540') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+header .overlay {
+    background-color: rgba(0, 79, 64, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 1.3rem;
+    color: #c8e6c9;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #00796b;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #004d40;
+}
+
+/* Sections */
+.content {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+/* Highlights Section */
+.highlights .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+/* Projects */
+.projects .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    background: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project h4 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+/* Stats */
+.stats .stat-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.stat {
+    background: #ffffff;
+    margin: 10px;
+    padding: 30px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.stat h3 {
+    font-size: 2.5rem;
+    color: #00796b;
+}
+
+/* Contact Form */
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer a {
+    color: #b2ebf2;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
